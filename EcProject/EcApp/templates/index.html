@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{ % static 'index.css'% }">
+</head>
+<body>
+    <form action="">
+        <div>
+            <div>
+                <h2>LOGIN </h2>
+            </div>
+            <div>
+                <input type="text" placeholder="Username">
+                <input type="text" placeholder="Password">
+                <input type="checkbox">Remember me
+            </div>   
+            <div>
+                <input type="button" value="Login">
+                <p>forgot your password ?</p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
